@@ -1,1 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Crystal River Manatee Fun | Swim with Manatees</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css" />
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo-wrap">
+        <img src="logo-wide-1200-green-05-600x271.png"
+             alt="Crystal River Manatee Fun Logo"
+             class="logo-img">
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        ☰
+      </button>
+      <nav class="main-nav" id="mainNav">
+        <a href="index.html" class="nav-link active">Home</a>
+        <a href="captain.html" class="nav-link">Captain</a>
+        <a href="news.html" class="nav-link">News</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO SLIDER -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <h1>Crystal River Manatee Fun</h1>
+          <p>Small-group, unforgettable manatee encounters in the springs of Crystal River, Florida.</p>
+          <a href="#booking" class="btn btn-primary">Book Your Adventure</a>
+        </div>
+
+        <div class="hero-slider" id="heroSlider">
+          <!-- Replace these image src values with your own photos -->
+          <div class="hero-slide active">
+            <img src="images/slide1.jpg" alt="Guests swimming with manatees">
+          </div>
+          <div class="hero-slide">
+            <img src="images/slide2.jpg" alt="Crystal River sunrise on the water">
+          </div>
+          <div class="hero-slide">
+            <img src="images/slide3.jpg" alt="Captain guiding a manatee tour">
+          </div>
+
+          <button class="slider-btn prev" data-target="heroSlider" aria-label="Previous slide">‹</button>
+          <button class="slider-btn next" data-target="heroSlider" aria-label="Next slide">›</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- BOOKING SECTION -->
+    <section class="section booking-section" id="booking">
+      <div class="container booking-inner">
+        <div class="booking-text">
+          <h2>Ready to Meet the Manatees?</h2>
+          <p>
+            Use our secure online booking system to choose your tour date and time.
+            We keep groups small so everyone has a safe, fun, and memorable experience.
+          </p>
+          <ul class="booking-highlights">
+            <li>USCG-licensed captain</li>
+            <li>All gear provided</li>
+            <li>Family-friendly tours</li>
+          </ul>
+        </div>
+        <div class="booking-widget">
+          <!-- Replace this block with your actual booking software embed code -->
+          <div class="booking-placeholder">
+            <h3>Booking Software</h3>
+            <p>Embed your booking widget here.</p>
+            <button class="btn btn-secondary">Book Now</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- GOOGLE REVIEWS (ROTATING SLIDER) -->
+    <section class="section reviews-section">
+      <div class="container">
+        <h2>What Our Guests Are Saying</h2>
+        <p class="section-subtitle">
+          These are examples – replace with text from your favorite Google reviews
+          or swap this section for a Google Reviews widget.
+        </p>
+
+        <div class="reviews-slider" id="reviewsSlider">
+          <div class="review-slide active">
+            <div class="review-card">
+              <p class="review-text">
+                “Absolutely magical experience! We saw several manatees up close
+                and Captain Dan made sure everyone was comfortable.”
+              </p>
+              <p class="review-name">– Sarah M.</p>
+              <p class="review-stars">★★★★★</p>
+            </div>
+          </div>
+
+          <div class="review-slide">
+            <div class="review-card">
+              <p class="review-text">
+                “Best manatee tour in Crystal River. Small group, relaxed pace,
+                and tons of local knowledge.”
+              </p>
+              <p class="review-name">– Jason L.</p>
+              <p class="review-stars">★★★★★</p>
+            </div>
+          </div>
+
+          <div class="review-slide">
+            <div class="review-card">
+              <p class="review-text">
+                “Our kids can’t stop talking about it! We felt safe the whole
+                time and learned so much about the springs.”
+              </p>
+              <p class="review-name">– The Carter Family</p>
+              <p class="review-stars">★★★★★</p>
+            </div>
+          </div>
+
+          <div class="review-slide">
+            <div class="review-card">
+              <p class="review-text">
+                “Crystal clear water, gentle manatees, and a captain who clearly
+                loves what he does. Highly recommend!”
+              </p>
+              <p class="review-name">– Amanda K.</p>
+              <p class="review-stars">★★★★★</p>
+            </div>
+          </div>
+
+          <div class="review-slide">
+            <div class="review-card">
+              <p class="review-text">
+                “From start to finish this tour was top-notch. We’ll be back next
+                season with friends!”
+              </p>
+              <p class="review-name">– Ryan &amp; Brooke</p>
+              <p class="review-stars">★★★★★</p>
+            </div>
+          </div>
+
+          <button class="slider-btn prev" data-target="reviewsSlider" aria-label="Previous review">‹</button>
+          <button class="slider-btn next" data-target="reviewsSlider" aria-label="Next review">›</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- CALL TO ACTION -->
+    <section class="section cta-section">
+      <div class="container cta-inner">
+        <h2>Plan Your Crystal River Manatee Adventure Today</h2>
+        <p>
+          Whether it’s your first time in the springs or your hundredth, we’ll make
+          it a trip you’ll never forget.
+        </p>
+        <a href="contact.html" class="btn btn-primary">Contact Us</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Crystal River Manatee Fun. All rights reserved.</p>
+      <div class="social-links">
+        <!-- Replace # with your real social URLs -->
+        <a href="#" target="_blank" rel="noopener">Facebook</a>
+        <a href="#" target="_blank" rel="noopener">Instagram</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
 
